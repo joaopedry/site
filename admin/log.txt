@@ -1,0 +1,23 @@
+Pedido Nº34 Solicitado em: 27/06/2019 13:05:38 - Dispositivo: Computador
+Pedido Nº35 Solicitado em: 27/06/2019 13:06:31 - Dispositivo: Computador
+Pedido Nº35 - Hamburger Acebolado - Cancelado em: 27/06/2019 13:07:01 Pelo usuario: root
+Pedido Nº35 - Marmitão Completo - Finalizado em: 27/06/2019 13:07:07 Pelo usuario: root
+Pedido Nº36 Solicitado em: 27/06/2019 19:04:36 - Dispositivo: Computador
+Pedido Nº36 - Hamburger Acebolado - Cancelado em: 27/06/2019 19:05:22 Pelo usuario: root
+Pedido Nº36 - Fritas com Bacon - Finalizado em: 27/06/2019 19:05:28 Pelo usuario: root
+Pedido Nº37 Solicitado em: 29/06/2019 10:28:04 - Dispositivo: Computador
+Pedido Nº37 - Hamburger Acebolado - Finalizado em: 29/06/2019 10:29:16 Pelo usuario: root
+Pedido Nº38 Solicitado em: 29/06/2019 10:30:36 - Dispositivo: Computador
+Pedido Nº38 - hambuerger e bacon - Cancelado em: 29/06/2019 10:30:48 Pelo usuario: root
+Pedido Nº39 Solicitado em: 01/07/2019 23:19:18 - Dispositivo: Computador
+Pedido Nº1 Solicitado em: 03/07/2019 01:49:18 - Dispositivo: Computador
+Pedido Nº2 Solicitado em: 03/07/2019 01:56:23 - Dispositivo: Computador
+Pedido Nº3 Solicitado em: 03/07/2019 01:57:16 - Dispositivo: Computador
+Pedido Nº4 Solicitado em: 03/07/2019 01:59:02 - Dispositivo: Computador
+Pedido Nº5 Solicitado em: 03/07/2019 02:05:47 - Dispositivo: Computador
+Pedido Nº2 - Pastel de Carne - Finalizado em: 03/07/2019 02:07:08 Pelo usuario: root
+Pedido Nº2 - Coca Cola Lata - Finalizado em: 03/07/2019 02:07:10 Pelo usuario: root
+Pedido Nº3 - Água 500ml - Cancelado em: 03/07/2019 02:07:15 Pelo usuario: root
+Pedido Nº3 - Marmita - Finalizado em: 03/07/2019 02:07:17 Pelo usuario: root
+Pedido Nº6 Solicitado em: 03/07/2019 02:42:41 - Dispositivo: Computador
+Pedido Nº7 Solicitado em: 03/07/2019 02:47:15 - Dispositivo: Computador

@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	height:100%;
+}
+body
+{
+	height:100%;
+	font-family: arial, sans-serif;
+	margin:0px;
+	background:#eee;
+}
+aside
+{
+	height:55%;
+	background:#fff;
+	width:25%;
+	padding:50px 0px;
+	border:solid 1px #ddd;
+	box-sizing: border-box;
+	float:left;
+}
+header
+{
+	background:#fff;
+	border-bottom:1px solid #ddd;
+	padding:15px;
+}
+ul
+{
+	list-style:none;
+	padding:0px;
+}
+
+.menu ul > li
+{
+	padding: 15px;
+	border-bottom: 1px solid #eee;
+}
+.menu ul > li > a
+{
+	text-decoration:none;
+	color:#444;
+	font-size:12px;
+}
+
+.menu ul > li:hover
+{
+	background:#eee;
+}
+
+.menu ul > li:hover > a
+{
+	color:#3cb878;
+}
+
+.conteudo
+{
+	float:right;
+	width:75%;
+}
+
+.titulo
+{
+	padding:10px;
+	background: #3cb878;
+	margin-top:0px;
+	color: #fff;
+}
+
+table
+{
+	width:96%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+
+tr
+{
+	border-bottom: 1px solid #ddd;
+}
+
+th
+{
+	color:#000;
+	text-align:left;
+	padding-bottom:5px;
+}
+
+td
+{
+	color:#444;
+	padding:5px 5px;
+	border-top:1px solid #ddd;	
+}
+
+#playlist tr > td > a
+{
+	color:#03F;
+	text-decoration:none;
+}
+
+#playlist tr > td:hover > a
+{
+	color:#3cb878;
+}
+
+.logar
+{
+	width:25%; 
+	margin: 5% auto;
+	border:solid 1px #ddd;
+	border-radius:5px;
+	padding:15px;
+}
+
+.logar h2 
+{
+	text-align:center;
+}
+
+.logar input
+{
+	width:100%;
+	margin: 10px 0px;
+	border-radius:200px;
+	border:solid 1px #ddd;
+	height:35px;
+}
+
+.inserir
+{
+	background:#fff;
+	padding:10px 0px;
+	margin-left:2%;
+	width:96%;
+}
+
+.inserir input, .inserir select
+{
+	border:1px solid #ddd;
+	border-radius:3px;
+	padding:5px;
+	margin-left:10px;
+}
+
+.inserir h2
+{
+	margin-left:10px;
+	color:#3cb878;
+	border-bottom:1px solid #ddd;
+}
+
+.btn
+{
+	border-radius:3px;
+	padding:5px 15px;
+	border:1px solid #ddd;
+}
+
+.btnCriar
+{
+	background:#3cb878;
+	color:#fff;
+	cursor:pointer;
+}
+
+.btnDelete
+{
+	background:red;
+	color:#fff;
+	cursor:pointer;
+	border-radius:3px;
+	padding:5px 10px;
+	border:1px solid #ddd;
+	text-decoration:none;
+}
+.btnFinaliza
+{
+	background:#3cb878;
+	color:#fff;
+	cursor:pointer;
+	width:40%;
+	border-radius:3px;
+	padding:3px;
+	border:1px solid #ddd;
+	margin-right:-30px;
+}
+.btnCancela
+{
+	background:red;
+	color:#fff;
+	cursor:pointer;
+	width:40%;
+	border-radius:3px;
+	padding:3px;
+	border:1px solid #ddd;
+	margin-right:-30px;
+}
+.btnVisualiza
+{
+	background:blue;
+	color:#fff;
+	cursor:pointer;
+	width:40%;
+	border-radius:3px;
+	padding:3px;
+	border:1px solid #ddd;
+	float:right;
+}
+.btnEdita
+{
+	background:blue;
+	color:#fff;
+	cursor:pointer;
+	width:40%;
+	border-radius:3px;
+	padding:3px;
+	border:1px solid #ddd;
+	float:right;
+	text-decoration:none;
+	text-align:center;
+}
+.acompanhapedido
+{
+	border:0px solid black;
+}
+.pedidos
+{
+	border:0px solid red;
+}
+.UPmusica
+{
+	border:0px solid red;
+}
+.UPmusica .FORMmusica
+{
+	border:0px solid black;
+	width:94%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+.UPmusica .FORMmusica .enviarMusica
+{
+	float:right;
+}
+.UPimagem
+{
+	border:0px solid blue;
+	margin-bottom:50px;
+}
+.UPimagem .FORMimagem
+{
+	border:0px solid black;
+	width:94%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+.UPimagem .FORMimagem .enviarImagem
+{
+	float:right;
+}
+.Cadastrotipo .FORMtipo
+{
+	border:0px solid black;
+	width:94%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+.Cadastrotipo .FORMtipo .criarTipo
+{
+	float:right;
+}
+.Cadastrocomida .FORMcomida
+{
+	border:0px solid black;
+	width:94%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+.Cadastrocomida .FORMcomida .criarComida
+{
+	float:right;
+}
+.Cadastrocomida .FORMcomida .FORMnome
+{
+	width:35%;
+	margin-right:10px;
+}
+.Cadastrocomida .FORMcomida .FORMtipo
+{
+	width:20%;
+	margin-right:10px;
+}
+.Cadastrocomida .FORMcomida .FORMpreco
+{
+	width:8%;
+	margin-right:10px;
+}
+.Cadastrocardapio .FORMcardapio
+{
+	border:0px solid black;
+	width:94%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+.Cadastrocardapio .FORMcardapio .criarCardapio
+{
+	float:right;
+}
+.Cadastrocardapio .FORMcardapio .FORMtitulo
+{
+	width:25%;
+	margin-right:10px;
+}
+.Cadastrocardapio .FORMcardapio .FORMicone
+{
+	margin-right:10px;
+}
+.Cadastrocardapio .FORMcardapio .FORMcard
+{
+	margin-right:10px;
+}
+.btnEditaCard
+{
+	background:blue;
+	color:#fff;
+	cursor:pointer;
+	width:40%;
+	border-radius:3px;
+	padding:3px;
+	border:1px solid #ddd;
+	float:right;
+	text-decoration:none;
+	text-align:center;
+}
+.btnDeleteCard
+{
+	background:red;
+	color:#fff;
+	cursor:pointer;
+	width:40%;
+	border-radius:3px;
+	padding:3px;
+	border:1px solid #ddd;
+	float:right;
+	text-decoration:none;
+	text-align:center;
+}
+.FORMEdita
+{
+	border:0px solid black;
+	width:94%;
+	background:#fff;
+	margin-left:2%;
+	padding:10px;
+}
+.FORMEdita .FORM
+{
+	margin-right:10px;
+}
+.FORMEdita .atualizar
+{
+	float:right;
+}
+.logo {
+	position: relative;
+	font-weight: 900;
+	font-size: 1.3rem;
+	width:10%;
+	height:4%;
+	text-decoration:none;
+}
+.logo a{
+	color: #000;
+	text-decoration:none;
+}
